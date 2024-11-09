@@ -12,7 +12,7 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FUniversal.json
 
-This is a mediaeval serif font based on the prototype of the type specimen of the Antwerp punchcutter Joannes Baptist van Wolsschaten in 1785 with regular and italic cut in optical sizes for display labeled as Paragon and text called Garmont.
+This is a mediaeval serif font based on the prototype of the type specimen of the Antwerp punchcutter Joannes Baptist van Wolsschaten in 1752 with a regular (Romeyn) and italic (Corsyf) cut in optical sizes for display (labeled as Paragon) and text(called Garmont).
     
 ![Sample Image](documentation/image-Groote-Garmont.png)
 ![Sample Image](documentation/image-Groote-Paragon.png)
