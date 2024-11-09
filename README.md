@@ -1,4 +1,4 @@
-# Ettore Font Project
+# Groote Font Project
 
 [![][Fontbakery]](https://jrgdrs.github.io/Ettorre/fontbakery/fontbakery-report.html)
 [![][Universal]](https://jrgdrs.github.io/Ettorre/fontbakery/fontbakery-report.html)
@@ -12,9 +12,12 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FUniversal.json
 
-This is a monospaced font looking like a typewriter output. There is only the regular version available.
+This is a mediaeval serif font with regular and italic cut in optical sizes for display and text.
 
-![Sample Image](documentation/image-Ettore-Regular.png)
+![Sample Image](documentation/image-Groote-Garmont.png)
+![Sample Image](documentation/image-Groote-Paragon.png)
+![Sample Image](documentation/image-Groote-Italic-Garmont.png)
+![Sample Image](documentation/image-Groote-Italic-Paragon.png)
 
 Find specimen and language samples as pdf file in subfolder documentation.
 
