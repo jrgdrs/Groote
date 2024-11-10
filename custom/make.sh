@@ -29,6 +29,19 @@ for i in $AMFF ; do
 done
 
 
+echo '-- create specimen for documentation'
+
+node scripts/print.js specimen/Specimen.html
+node scripts/print.js specimen/Etik.html
+node scripts/print.js specimen/Brentano.html
+node scripts/print.js specimen/Woolf.html
+node scripts/print.js specimen/Dumas.html
+node scripts/print.js specimen/Adamson.html
+node scripts/print.js specimen/Endrődi.html
+node scripts/print.js specimen/Heisenberg.html
+
+# mv specimen/*.pdf ../documentation
+
 echo '-- create pdfs for tests'
 
 mkdir ../out/qa
@@ -43,18 +56,5 @@ for i in $AMFF ; do
   node scripts/print.js qa/Diacritics.html ../fonts/otf/$i.otf ../out/qa/7-Diacritics-$i.pdf
 done
 
-
-echo '-- create specimen for documentation'
-
-node scripts/print.js specimen/Specimen.html
-node scripts/print.js specimen/Etik.html
-node scripts/print.js specimen/Brentano.html
-node scripts/print.js specimen/Woolf.html
-node scripts/print.js specimen/Dumas.html
-node scripts/print.js specimen/Adamson.html
-node scripts/print.js specimen/Endrődi.html
-node scripts/print.js specimen/Heisenberg.html
-
-# mv specimen/*.pdf ../documentation
 
 cd ..
