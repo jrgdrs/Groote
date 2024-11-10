@@ -1146,7 +1146,9 @@ The font may be embedded but must only be installed temporarily on other systems
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- _source
 
-- s_t.hist
+- s_i.hist
+
+- s_s.hist
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -1203,7 +1205,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Teke-Ebo (Latn, 260,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Vute (Latn, 21,000 speakers), Kaska (Latn, 125 speakers), Bete-Bendi (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Makaa (Latn, 221,000 speakers), Han (Latn, 6 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Heiltsuk (Latn, 300 speakers), Yala (Latn, 200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Kaska (Latn, 125 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Teke-Ebo (Latn, 260,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1236,7 +1238,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * d (U+0064): L&lt;&lt;390.0,-12.0&gt;--&lt;388.0,0.0&gt;&gt; -&gt; L&lt;&lt;388.0,0.0&gt;--&lt;383.0,33.0&gt;&gt;
 
-* f_i: L&lt;&lt;475.0,435.0&gt;--&lt;472.0,352.0&gt;&gt; -&gt; L&lt;&lt;472.0,352.0&gt;--&lt;472.0,57.0&gt;&gt;
+* f_i: L&lt;&lt;485.0,435.0&gt;--&lt;482.0,352.0&gt;&gt; -&gt; L&lt;&lt;482.0,352.0&gt;--&lt;482.0,57.0&gt;&gt;
 
 * germandbls (U+00DF): L&lt;&lt;181.0,531.0&gt;--&lt;181.0,59.0&gt;&gt; -&gt; L&lt;&lt;181.0,59.0&gt;--&lt;179.0,0.0&gt;&gt;
 
@@ -1250,7 +1252,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * l (U+006C): L&lt;&lt;179.0,700.0&gt;--&lt;176.0,647.0&gt;&gt; -&gt; L&lt;&lt;176.0,647.0&gt;--&lt;176.0,86.0&gt;&gt;
 
-* s_i: L&lt;&lt;455.0,435.0&gt;--&lt;452.0,352.0&gt;&gt; -&gt; L&lt;&lt;452.0,352.0&gt;--&lt;452.0,57.0&gt;&gt;
+* s_i.hist: L&lt;&lt;474.0,435.0&gt;--&lt;471.0,352.0&gt;&gt; -&gt; L&lt;&lt;471.0,352.0&gt;--&lt;471.0,57.0&gt;&gt;
 
 * u (U+0075): L&lt;&lt;457.0,423.0&gt;--&lt;453.0,372.0&gt;&gt; -&gt; L&lt;&lt;453.0,372.0&gt;--&lt;453.0,71.0&gt;&gt;
 
@@ -2411,7 +2413,9 @@ The font may be embedded but must only be installed temporarily on other systems
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- _source
 
-- s_t.hist
+- s_i.hist
+
+- s_s.hist
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -2468,7 +2472,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Teke-Ebo (Latn, 260,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Vute (Latn, 21,000 speakers), Kaska (Latn, 125 speakers), Bete-Bendi (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Makaa (Latn, 221,000 speakers), Han (Latn, 6 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Heiltsuk (Latn, 300 speakers), Yala (Latn, 200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Kaska (Latn, 125 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Teke-Ebo (Latn, 260,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2493,7 +2497,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * d (U+0064): L&lt;&lt;393.0,-12.0&gt;--&lt;391.0,0.0&gt;&gt; -&gt; L&lt;&lt;391.0,0.0&gt;--&lt;384.0,32.0&gt;&gt;
 
-* f_i: L&lt;&lt;478.0,445.0&gt;--&lt;475.0,362.0&gt;&gt; -&gt; L&lt;&lt;475.0,362.0&gt;--&lt;475.0,67.0&gt;&gt;
+* f_i: L&lt;&lt;485.0,445.0&gt;--&lt;482.0,362.0&gt;&gt; -&gt; L&lt;&lt;482.0,362.0&gt;--&lt;482.0,67.0&gt;&gt;
 
 * germandbls (U+00DF): L&lt;&lt;183.0,541.0&gt;--&lt;183.0,59.0&gt;&gt; -&gt; L&lt;&lt;183.0,59.0&gt;--&lt;182.0,0.0&gt;&gt;
 
@@ -2505,7 +2509,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * l (U+006C): L&lt;&lt;183.0,700.0&gt;--&lt;180.0,647.0&gt;&gt; -&gt; L&lt;&lt;180.0,647.0&gt;--&lt;177.0,96.0&gt;&gt;
 
-* s_i: L&lt;&lt;458.0,445.0&gt;--&lt;455.0,362.0&gt;&gt; -&gt; L&lt;&lt;455.0,362.0&gt;--&lt;455.0,67.0&gt;&gt;
+* s_i.hist: L&lt;&lt;474.0,445.0&gt;--&lt;471.0,362.0&gt;&gt; -&gt; L&lt;&lt;471.0,362.0&gt;--&lt;471.0,67.0&gt;&gt;
 
 * u (U+0075): L&lt;&lt;460.0,433.0&gt;--&lt;456.0,382.0&gt;&gt; -&gt; L&lt;&lt;456.0,382.0&gt;--&lt;456.0,81.0&gt;&gt;
 
@@ -2608,7 +2612,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </div>
 </details>
 
-<details><summary>[24] Groote-Italic-Garmont.ttf</summary>
+<details><summary>[26] Groote-Italic-Garmont.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
@@ -3774,14 +3778,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- N.alt
-
-- c_t
-
-- f_f
-
-- f_i
-
-- s_t
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -3838,7 +3834,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Teke-Ebo (Latn, 260,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Vute (Latn, 21,000 speakers), Kaska (Latn, 125 speakers), Bete-Bendi (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Makaa (Latn, 221,000 speakers), Han (Latn, 6 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Heiltsuk (Latn, 300 speakers), Yala (Latn, 200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Kaska (Latn, 125 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Teke-Ebo (Latn, 260,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -3913,6 +3909,46 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -3950,7 +3986,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </div>
 </details>
 
-<details><summary>[24] Groote-Italic-Paragon.ttf</summary>
+<details><summary>[26] Groote-Italic-Paragon.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
@@ -5120,14 +5156,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- N.alt
-
-- c_t
-
-- f_f
-
-- f_i
-
-- s_t
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -5184,7 +5212,7 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Igbo (Latn, 27,823,640 speakers), Teke-Ebo (Latn, 260,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ngbaka (Latn, 1,020,000 speakers), Nateni (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Yala (Latn, 200,000 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Koonzime (Latn, 40,000 speakers), Sar (Latn, 500,000 speakers), Heiltsuk (Latn, 300 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ebira (Latn, 2,200,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Zapotec (Latn, 490,000 speakers), Aghem (Latn, 38,843 speakers), South Central Banda (Latn, 244,000 speakers), Vute (Latn, 21,000 speakers), Kaska (Latn, 125 speakers), Bete-Bendi (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Nzakara (Latn, 50,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Han (Latn, 6 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Igbo (Latn, 27,823,640 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Makaa (Latn, 221,000 speakers), Han (Latn, 6 speakers), Ekpeye (Latn, 226,000 speakers), Cicipu (Latn, 44,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Heiltsuk (Latn, 300 speakers), Yala (Latn, 200,000 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Kaska (Latn, 125 speakers), Dan (Latn, 1,099,244 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Teke-Ebo (Latn, 260,000 speakers), Zapotec (Latn, 490,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ejagham (Latn, 120,000 speakers), Mango (Latn, 77,000 speakers), Sar (Latn, 500,000 speakers), Avokaya (Latn, 100,000 speakers), Lugbara (Latn, 2,200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Dii (Latn, 71,000 speakers), Kom (Latn, 360,685 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Basaa (Latn, 332,940 speakers), South Central Banda (Latn, 244,000 speakers), Mundani (Latn, 34,000 speakers), Vute (Latn, 21,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -5259,6 +5287,46 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+</code></pre>
+ [code: lacks-kern-info]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gdef.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
     <div>
 
@@ -5303,8 +5371,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 55 | 40 | 488 | 25 | 342 | 0 | 
-| 0% | 0% | 6% | 4% | 51% | 3% | 36% | 0% | 
+| 0 | 0 | 55 | 44 | 484 | 25 | 342 | 0 | 
+| 0% | 0% | 6% | 5% | 51% | 3% | 36% | 0% | 
 
 
 
