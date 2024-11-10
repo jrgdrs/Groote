@@ -6,7 +6,8 @@ DisplayStrings = (
 PQRSTUÜVWXYZ/N.alt 
 aäbcdefghijklmnoö
 pqrstuüvwxyz/s.hist/c_t/s_t/f_f/f_i  
-.,:;*-&̈"
+.,:;*-&̈",
+"mi/s_t um"
 );
 axes = (
 {
@@ -36,6 +37,22 @@ automatic = 1;
 code = "sub s by s.hist;
 ";
 tag = hist;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub c t by c_t;
+sub s t by s_t;
+";
+tag = dlig;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f by f_f;
+sub f i by f_i;
+";
+tag = liga;
 }
 );
 fontMaster = (
