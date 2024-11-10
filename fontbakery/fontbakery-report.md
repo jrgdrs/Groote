@@ -84,7 +84,7 @@ fontbakery version: 0.12.10
 </div>
 </details>
 
-<details><summary>[20] Groote-Paragon.ttf</summary>
+<details><summary>[21] Groote-Paragon.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -504,9 +504,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
 
 
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
 - 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
 
 
@@ -555,9 +552,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
 
 
-- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
 - 0x00D7 (MULTIPLICATION SIGN)
 
 
@@ -571,9 +565,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
 
 
 - 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
@@ -592,9 +583,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
 
 
 - 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
@@ -645,9 +633,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
 
 
-- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
 - 0x00F7 (DIVISION SIGN)
 
 
@@ -661,9 +646,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
 
 
 - 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
@@ -999,9 +981,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0307 (COMBINING DOT ABOVE)
 
 
-- 0x0308 (COMBINING DIAERESIS)
-
-
 - 0x030A (COMBINING RING ABOVE)
 
 
@@ -1173,7 +1152,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
 
@@ -1182,78 +1161,28 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0020 SPACE: try adding one of: lisu, glagolitic, brahmi, old-uyghur, symbols2, meetei-mayek, lydian, khudawadi, tibetan, myanmar, kana-extended, makasar, newa, yi, mayan-numerals, phoenician, takri, tifinagh, gothic, vai, ol-chiki, nushu, garay, chinese-simplified, tai-tham, adlam, ethiopic, cuneiform, sundanese, deseret, signwriting, cypriot, buginese, javanese, znamenny, cyrillic, soyombo, canadian-aboriginal, balinese, hebrew, old-persian, cherokee, mahajani, old-north-arabian, chinese-traditional, ottoman-siyaq-numbers, kannada, gurmukhi, greek-ext, syloti-nagri, chorasmian, pahawh-hmong, nabataean, masaram-gondi, hatran, buhid, meroitic-hieroglyphs, ogham, gujarati, music, latin, old-turkic, bengali, mro, sora-sompeng, inscriptional-pahlavi, todhri, elbasan, samaritan, wancho, chakma, bassa-vah, old-sogdian, sharada, kaithi, symbols, sunuwar, chinese-hongkong, tagalog, avestan, ugaritic, braille, lepcha, grantha, nag-mundari, new-tai-lue, oriya, osmanya, khitan-small-script, mandaic, coptic, nandinagari, pau-cin-hau, linear-b, zanabazar-square, lycian, marchen, vietnamese, nko, greek, kirat-rai, meroitic, runic, tai-viet, dogra, ahom, cham, gunjala-gondi, osage, old-italic, egyptian-hieroglyphs, batak, manichaean, saurashtra, syriac, cypro-minoan, japanese, hanifi-rohingya, georgian, inscriptional-parthian, palmyrene, yezidi, dives-akuru, lao, vithkuqi, phags-pa, modi, khojki, sogdian, arabic, bhaiksuki, math, psalter-pahlavi, duployan, telugu, hanunoo, ol-onal, thai, siddham, devanagari, meroitic-cursive, tirhuta, sinhala, indic-siyaq-numbers, miao, old-hungarian, tulu-tigalari, warang-citi, kawi, caucasian-albanian, kayah-li, mongolian, medefaidrin, tamil, tangsa, elymaic, gurung-khema, armenian, kharoshthi, mende-kikakui, shavian, thaana, limbu, bamum, nyiakeng-puachue-hmong, latin-ext, old-south-arabian, old-permic, multani, tamil-supplement, tangut, linear-a, carian, rejang, tagbanwa, cyrillic-ext, tai-le, toto, korean, anatolian-hieroglyphs, malayalam, imperial-aramaic</li>
-<li>U+0026 AMPERSAND: try adding one of: latin, math, adlam</li>
-<li>U+002C COMMA: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, coptic, masaram-gondi, nushu</li>
-<li>U+002D HYPHEN-MINUS: try adding one of: lisu, masaram-gondi, cham, gunjala-gondi, kayah-li, mongolian, latin, syriac, armenian, sora-sompeng, kharoshthi, nushu, wancho, adlam, sundanese, kaithi, hebrew, math, coptic</li>
-<li>U+002E FULL STOP: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, syriac, avestan, coptic, masaram-gondi, nushu</li>
-<li>U+003A COLON: try adding one of: thaana, math, adlam, cham, gunjala-gondi, latin, syriac, meroitic, coptic, masaram-gondi</li>
-<li>U+003B SEMICOLON: try adding one of: thaana, math, adlam, cham, latin, coptic, masaram-gondi</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+00C6 LATIN CAPITAL LETTER AE: try adding latin</li>
-<li>U+00DF LATIN SMALL LETTER SHARP S: try adding latin</li>
-<li>U+00E6 LATIN SMALL LETTER AE: try adding latin</li>
-<li>U+0152 LATIN CAPITAL LIGATURE OE: try adding latin</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
- [code: unreachable-subsetting]
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Fur (Latn, 1,230,163 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Ma’di (Latn, 584,000 speakers), Yala (Latn, 200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Han (Latn, 6 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Heiltsuk (Latn, 300 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Kaska (Latn, 125 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -1275,7 +1204,11 @@ definitions.</p>
 
 * AE (U+00C6): L&lt;&lt;429.0,672.0&gt;--&lt;423.0,672.0&gt;&gt; -&gt; L&lt;&lt;423.0,672.0&gt;--&lt;271.0,672.0&gt;&gt;
 
+* Adieresis (U+00C4): L&lt;&lt;458.0,719.0&gt;--&lt;468.0,679.0&gt;&gt; -&gt; L&lt;&lt;468.0,679.0&gt;--&lt;662.0,134.0&gt;&gt;
+
 * a (U+0061): L&lt;&lt;273.0,62.0&gt;--&lt;273.0,64.0&gt;&gt; -&gt; L&lt;&lt;273.0,64.0&gt;--&lt;273.0,206.0&gt;&gt;
+
+* adieresis (U+00E4): L&lt;&lt;273.0,62.0&gt;--&lt;273.0,64.0&gt;&gt; -&gt; L&lt;&lt;273.0,64.0&gt;--&lt;273.0,206.0&gt;&gt;
 
 * b (U+0062): L&lt;&lt;165.0,700.0&gt;--&lt;163.0,636.0&gt;&gt; -&gt; L&lt;&lt;163.0,636.0&gt;--&lt;163.0,422.0&gt;&gt;
 
@@ -1298,6 +1231,8 @@ definitions.</p>
 * s_i: L&lt;&lt;455.0,435.0&gt;--&lt;452.0,352.0&gt;&gt; -&gt; L&lt;&lt;452.0,352.0&gt;--&lt;452.0,57.0&gt;&gt;
 
 * u (U+0075): L&lt;&lt;457.0,423.0&gt;--&lt;453.0,372.0&gt;&gt; -&gt; L&lt;&lt;453.0,372.0&gt;--&lt;453.0,71.0&gt;&gt;
+
+* udieresis (U+00FC): L&lt;&lt;457.0,423.0&gt;--&lt;453.0,372.0&gt;&gt; -&gt; L&lt;&lt;453.0,372.0&gt;--&lt;453.0,71.0&gt;&gt;
 
 * x (U+0078): L&lt;&lt;219.0,205.0&gt;--&lt;210.0,216.0&gt;&gt; -&gt; L&lt;&lt;210.0,216.0&gt;--&lt;76.0,364.0&gt;&gt;
 
@@ -1343,6 +1278,8 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* A (U+0041): L&lt;&lt;769.0,0.0&gt;--&lt;468.0,-2.0&gt;&gt;
 
+* Adieresis (U+00C4): L&lt;&lt;769.0,0.0&gt;--&lt;468.0,-2.0&gt;&gt;
+
 * K (U+004B): L&lt;&lt;226.0,318.0&gt;--&lt;228.0,87.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
@@ -1362,8 +1299,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table.</p>
- [code: GDEF-missing]
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
 
 
 
@@ -1390,7 +1327,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[20] Groote-Garmont.ttf</summary>
+<details><summary>[21] Groote-Garmont.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
@@ -1810,9 +1747,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
 
 
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
 - 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
 
 
@@ -1861,9 +1795,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
 
 
-- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
 - 0x00D7 (MULTIPLICATION SIGN)
 
 
@@ -1877,9 +1808,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
 
 
 - 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
@@ -1898,9 +1826,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
 
 
 - 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
@@ -1951,9 +1876,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
 
 
-- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
 - 0x00F7 (DIVISION SIGN)
 
 
@@ -1967,9 +1889,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
 
 
 - 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
@@ -2305,9 +2224,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0307 (COMBINING DOT ABOVE)
 
 
-- 0x0308 (COMBINING DIAERESIS)
-
-
 - 0x030A (COMBINING RING ABOVE)
 
 
@@ -2479,7 +2395,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
 
@@ -2488,78 +2404,28 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0020 SPACE: try adding one of: lisu, glagolitic, brahmi, old-uyghur, symbols2, meetei-mayek, lydian, khudawadi, tibetan, myanmar, kana-extended, makasar, newa, yi, mayan-numerals, phoenician, takri, tifinagh, gothic, vai, ol-chiki, nushu, garay, chinese-simplified, tai-tham, adlam, ethiopic, cuneiform, sundanese, deseret, signwriting, cypriot, buginese, javanese, znamenny, cyrillic, soyombo, canadian-aboriginal, balinese, hebrew, old-persian, cherokee, mahajani, old-north-arabian, chinese-traditional, ottoman-siyaq-numbers, kannada, gurmukhi, greek-ext, syloti-nagri, chorasmian, pahawh-hmong, nabataean, masaram-gondi, hatran, buhid, meroitic-hieroglyphs, ogham, gujarati, music, latin, old-turkic, bengali, mro, sora-sompeng, inscriptional-pahlavi, todhri, elbasan, samaritan, wancho, chakma, bassa-vah, old-sogdian, sharada, kaithi, symbols, sunuwar, chinese-hongkong, tagalog, avestan, ugaritic, braille, lepcha, grantha, nag-mundari, new-tai-lue, oriya, osmanya, khitan-small-script, mandaic, coptic, nandinagari, pau-cin-hau, linear-b, zanabazar-square, lycian, marchen, vietnamese, nko, greek, kirat-rai, meroitic, runic, tai-viet, dogra, ahom, cham, gunjala-gondi, osage, old-italic, egyptian-hieroglyphs, batak, manichaean, saurashtra, syriac, cypro-minoan, japanese, hanifi-rohingya, georgian, inscriptional-parthian, palmyrene, yezidi, dives-akuru, lao, vithkuqi, phags-pa, modi, khojki, sogdian, arabic, bhaiksuki, math, psalter-pahlavi, duployan, telugu, hanunoo, ol-onal, thai, siddham, devanagari, meroitic-cursive, tirhuta, sinhala, indic-siyaq-numbers, miao, old-hungarian, tulu-tigalari, warang-citi, kawi, caucasian-albanian, kayah-li, mongolian, medefaidrin, tamil, tangsa, elymaic, gurung-khema, armenian, kharoshthi, mende-kikakui, shavian, thaana, limbu, bamum, nyiakeng-puachue-hmong, latin-ext, old-south-arabian, old-permic, multani, tamil-supplement, tangut, linear-a, carian, rejang, tagbanwa, cyrillic-ext, tai-le, toto, korean, anatolian-hieroglyphs, malayalam, imperial-aramaic</li>
-<li>U+0026 AMPERSAND: try adding one of: latin, math, adlam</li>
-<li>U+002C COMMA: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, coptic, masaram-gondi, nushu</li>
-<li>U+002D HYPHEN-MINUS: try adding one of: lisu, masaram-gondi, cham, gunjala-gondi, kayah-li, mongolian, latin, syriac, armenian, sora-sompeng, kharoshthi, nushu, wancho, adlam, sundanese, kaithi, hebrew, math, coptic</li>
-<li>U+002E FULL STOP: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, syriac, avestan, coptic, masaram-gondi, nushu</li>
-<li>U+003A COLON: try adding one of: thaana, math, adlam, cham, gunjala-gondi, latin, syriac, meroitic, coptic, masaram-gondi</li>
-<li>U+003B SEMICOLON: try adding one of: thaana, math, adlam, cham, latin, coptic, masaram-gondi</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+00C6 LATIN CAPITAL LETTER AE: try adding latin</li>
-<li>U+00DF LATIN SMALL LETTER SHARP S: try adding latin</li>
-<li>U+00E6 LATIN SMALL LETTER AE: try adding latin</li>
-<li>U+0152 LATIN CAPITAL LIGATURE OE: try adding latin</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
- [code: unreachable-subsetting]
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Fur (Latn, 1,230,163 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Ma’di (Latn, 584,000 speakers), Yala (Latn, 200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Han (Latn, 6 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Heiltsuk (Latn, 300 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Kaska (Latn, 125 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -2598,6 +2464,8 @@ definitions.</p>
 * s_i: L&lt;&lt;458.0,445.0&gt;--&lt;455.0,362.0&gt;&gt; -&gt; L&lt;&lt;455.0,362.0&gt;--&lt;455.0,67.0&gt;&gt;
 
 * u (U+0075): L&lt;&lt;460.0,433.0&gt;--&lt;456.0,382.0&gt;&gt; -&gt; L&lt;&lt;456.0,382.0&gt;--&lt;456.0,81.0&gt;&gt;
+
+* udieresis (U+00FC): L&lt;&lt;460.0,433.0&gt;--&lt;456.0,382.0&gt;&gt; -&gt; L&lt;&lt;456.0,382.0&gt;--&lt;456.0,81.0&gt;&gt;
 
 * x (U+0078): L&lt;&lt;217.0,217.0&gt;--&lt;213.0,221.0&gt;&gt; -&gt; L&lt;&lt;213.0,221.0&gt;--&lt;79.0,364.0&gt;&gt;
 
@@ -2643,6 +2511,8 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <pre><code>* A (U+0041): L&lt;&lt;772.0,0.0&gt;--&lt;471.0,-2.0&gt;&gt;
 
+* Adieresis (U+00C4): L&lt;&lt;772.0,0.0&gt;--&lt;471.0,-2.0&gt;&gt;
+
 * h (U+0068): L&lt;&lt;175.0,349.0&gt;--&lt;174.0,84.0&gt;&gt;
 
 * h (U+0068): L&lt;&lt;177.0,632.0&gt;--&lt;176.0,395.0&gt;&gt;
@@ -2666,8 +2536,8 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table.</p>
- [code: GDEF-missing]
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
 
 
 
@@ -2694,7 +2564,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Groote-Italic-Garmont.ttf</summary>
+<details><summary>[24] Groote-Italic-Garmont.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
@@ -3212,9 +3082,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
 
 
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
 - 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
 
 
@@ -3263,9 +3130,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
 
 
-- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
 - 0x00D7 (MULTIPLICATION SIGN)
 
 
@@ -3279,9 +3143,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
 
 
 - 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
@@ -3303,9 +3164,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
 
 
 - 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
@@ -3359,9 +3217,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
 
 
-- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
 - 0x00F7 (DIVISION SIGN)
 
 
@@ -3375,9 +3230,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
 
 
 - 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
@@ -3713,9 +3565,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0307 (COMBINING DOT ABOVE)
 
 
-- 0x0308 (COMBINING DIAERESIS)
-
-
 - 0x030A (COMBINING RING ABOVE)
 
 
@@ -3850,7 +3699,11 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - Glyph name: w	Contours detected: 2	Expected: 1
 
+- Glyph name: adieresis	Contours detected: 5	Expected: 4
+
 - Glyph name: a	Contours detected: 3	Expected: 2
+
+- Glyph name: adieresis	Contours detected: 5	Expected: 4
 
 - Glyph name: asterisk	Contours detected: 16	Expected: 1 or 4
 
@@ -3904,7 +3757,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
 
@@ -3913,77 +3766,28 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0020 SPACE: try adding one of: lisu, glagolitic, brahmi, old-uyghur, symbols2, meetei-mayek, lydian, khudawadi, tibetan, myanmar, kana-extended, makasar, newa, yi, mayan-numerals, phoenician, takri, tifinagh, gothic, vai, ol-chiki, nushu, garay, chinese-simplified, tai-tham, adlam, ethiopic, cuneiform, sundanese, deseret, signwriting, cypriot, buginese, javanese, znamenny, cyrillic, soyombo, canadian-aboriginal, balinese, hebrew, old-persian, cherokee, mahajani, old-north-arabian, chinese-traditional, ottoman-siyaq-numbers, kannada, gurmukhi, greek-ext, syloti-nagri, chorasmian, pahawh-hmong, nabataean, masaram-gondi, hatran, buhid, meroitic-hieroglyphs, ogham, gujarati, music, latin, old-turkic, bengali, mro, sora-sompeng, inscriptional-pahlavi, todhri, elbasan, samaritan, wancho, chakma, bassa-vah, old-sogdian, sharada, kaithi, symbols, sunuwar, chinese-hongkong, tagalog, avestan, ugaritic, braille, lepcha, grantha, nag-mundari, new-tai-lue, oriya, osmanya, khitan-small-script, mandaic, coptic, nandinagari, pau-cin-hau, linear-b, zanabazar-square, lycian, marchen, vietnamese, nko, greek, kirat-rai, meroitic, runic, tai-viet, dogra, ahom, cham, gunjala-gondi, osage, old-italic, egyptian-hieroglyphs, batak, manichaean, saurashtra, syriac, cypro-minoan, japanese, hanifi-rohingya, georgian, inscriptional-parthian, palmyrene, yezidi, dives-akuru, lao, vithkuqi, phags-pa, modi, khojki, sogdian, arabic, bhaiksuki, math, psalter-pahlavi, duployan, telugu, hanunoo, ol-onal, thai, siddham, devanagari, meroitic-cursive, tirhuta, sinhala, indic-siyaq-numbers, miao, old-hungarian, tulu-tigalari, warang-citi, kawi, caucasian-albanian, kayah-li, mongolian, medefaidrin, tamil, tangsa, elymaic, gurung-khema, armenian, kharoshthi, mende-kikakui, shavian, thaana, limbu, bamum, nyiakeng-puachue-hmong, latin-ext, old-south-arabian, old-permic, multani, tamil-supplement, tangut, linear-a, carian, rejang, tagbanwa, cyrillic-ext, tai-le, toto, korean, anatolian-hieroglyphs, malayalam, imperial-aramaic</li>
-<li>U+0026 AMPERSAND: try adding one of: latin, math, adlam</li>
-<li>U+002A ASTERISK: try adding one of: math, adlam, gunjala-gondi, latin, symbols, syriac, masaram-gondi</li>
-<li>U+002C COMMA: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, coptic, masaram-gondi, nushu</li>
-<li>U+002D HYPHEN-MINUS: try adding one of: lisu, masaram-gondi, cham, gunjala-gondi, kayah-li, mongolian, latin, syriac, armenian, sora-sompeng, kharoshthi, nushu, wancho, adlam, sundanese, kaithi, hebrew, math, coptic</li>
-<li>U+002E FULL STOP: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, syriac, avestan, coptic, masaram-gondi, nushu</li>
-<li>U+003A COLON: try adding one of: thaana, math, adlam, cham, gunjala-gondi, latin, syriac, meroitic, coptic, masaram-gondi</li>
-<li>U+003B SEMICOLON: try adding one of: thaana, math, adlam, cham, latin, coptic, masaram-gondi</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+00C6 LATIN CAPITAL LETTER AE: try adding latin</li>
-<li>U+0152 LATIN CAPITAL LIGATURE OE: try adding latin</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
- [code: unreachable-subsetting]
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Fur (Latn, 1,230,163 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Ma’di (Latn, 584,000 speakers), Yala (Latn, 200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Han (Latn, 6 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Heiltsuk (Latn, 300 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Kaska (Latn, 125 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -4004,6 +3808,8 @@ definitions.</p>
 <pre><code>* A (U+0041): L&lt;&lt;495.0,719.0&gt;--&lt;495.0,679.0&gt;&gt; -&gt; L&lt;&lt;495.0,679.0&gt;--&lt;534.0,144.0&gt;&gt;
 
 * AE (U+00C6): L&lt;&lt;550.0,672.0&gt;--&lt;545.0,672.0&gt;&gt; -&gt; L&lt;&lt;545.0,672.0&gt;--&lt;415.0,672.0&gt;&gt;
+
+* Adieresis (U+00C4): L&lt;&lt;495.0,719.0&gt;--&lt;495.0,679.0&gt;&gt; -&gt; L&lt;&lt;495.0,679.0&gt;--&lt;534.0,144.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -4025,7 +3831,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
 <pre><code>* U (U+0055): B&lt;&lt;187.5,587.0&gt;-&lt;195.0,619.0&gt;-&lt;183.0,570.0&gt;&gt;/B&lt;&lt;183.0,570.0&gt;-&lt;192.0,610.0&gt;-&lt;190.0,635.5&gt;&gt; = 1.0804016199706932
 
+* Udieresis (U+00DC): B&lt;&lt;187.5,587.0&gt;-&lt;195.0,619.0&gt;-&lt;183.0,570.0&gt;&gt;/B&lt;&lt;183.0,570.0&gt;-&lt;192.0,610.0&gt;-&lt;190.0,635.5&gt;&gt; = 1.0804016199706932
+
 * a (U+0061): B&lt;&lt;236.0,120.0&gt;-&lt;238.0,127.0&gt;-&lt;241.0,135.0&gt;&gt;/B&lt;&lt;241.0,135.0&gt;-&lt;230.0,107.0&gt;-&lt;236.0,120.0&gt;&gt; = 0.8916911075219244
+
+* adieresis (U+00E4): B&lt;&lt;236.0,120.0&gt;-&lt;238.0,127.0&gt;-&lt;241.0,135.0&gt;&gt;/B&lt;&lt;241.0,135.0&gt;-&lt;230.0,107.0&gt;-&lt;236.0,120.0&gt;&gt; = 0.8916911075219244
 
 * m (U+006D): B&lt;&lt;253.0,380.0&gt;-&lt;251.0,375.0&gt;-&lt;247.0,364.0&gt;&gt;/L&lt;&lt;247.0,364.0&gt;--&lt;248.0,366.0&gt;&gt; = 6.581944655177973
 
@@ -4038,6 +3848,8 @@ definitions.</p>
 * r (U+0072): B&lt;&lt;241.5,468.0&gt;-&lt;248.0,428.0&gt;-&lt;230.0,365.0&gt;&gt;/B&lt;&lt;230.0,365.0&gt;-&lt;237.0,391.0&gt;-&lt;235.0,382.5&gt;&gt; = 0.8769077414303856
 
 * u (U+0075): B&lt;&lt;297.0,120.0&gt;-&lt;299.0,125.0&gt;-&lt;303.0,136.0&gt;&gt;/L&lt;&lt;303.0,136.0&gt;--&lt;302.0,134.0&gt;&gt; = 6.581944655177973
+
+* udieresis (U+00FC): B&lt;&lt;297.0,120.0&gt;-&lt;299.0,125.0&gt;-&lt;303.0,136.0&gt;&gt;/L&lt;&lt;303.0,136.0&gt;--&lt;302.0,134.0&gt;&gt; = 6.581944655177973
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -4084,7 +3896,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[23] Groote-Italic-Paragon.ttf</summary>
+<details><summary>[24] Groote-Italic-Paragon.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Checking head.macStyle value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.head.html#"></a></summary>
@@ -4602,9 +4414,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
 
 
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
 - 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
 
 
@@ -4653,9 +4462,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
 
 
-- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
 - 0x00D7 (MULTIPLICATION SIGN)
 
 
@@ -4669,9 +4475,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
 
 
 - 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
@@ -4693,9 +4496,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
 
 
 - 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
@@ -4749,9 +4549,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
 
 
-- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
 - 0x00F7 (DIVISION SIGN)
 
 
@@ -4765,9 +4562,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 - 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
 
 
 - 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
@@ -5103,9 +4897,6 @@ The font may be embedded but must only be installed temporarily on other systems
 - 0x0307 (COMBINING DOT ABOVE)
 
 
-- 0x0308 (COMBINING DIAERESIS)
-
-
 - 0x030A (COMBINING RING ABOVE)
 
 
@@ -5242,6 +5033,8 @@ The font may be embedded but must only be installed temporarily on other systems
 
 - Glyph name: w	Contours detected: 2	Expected: 1
 
+- Glyph name: udieresis	Contours detected: 4	Expected: 3
+
 - Glyph name: asterisk	Contours detected: 16	Expected: 1 or 4
 
 - Glyph name: m	Contours detected: 2	Expected: 1
@@ -5249,6 +5042,8 @@ The font may be embedded but must only be installed temporarily on other systems
 - Glyph name: n	Contours detected: 2	Expected: 1
 
 - Glyph name: u	Contours detected: 2	Expected: 1
+
+- Glyph name: udieresis	Contours detected: 4	Expected: 3
 
 - Glyph name: w	Contours detected: 2	Expected: 1
 </code></pre>
@@ -5298,7 +5093,7 @@ The font may be embedded but must only be installed temporarily on other systems
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
     <div>
 
 
@@ -5307,77 +5102,28 @@ The font may be embedded but must only be installed temporarily on other systems
 
 
 
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0020 SPACE: try adding one of: lisu, glagolitic, brahmi, old-uyghur, symbols2, meetei-mayek, lydian, khudawadi, tibetan, myanmar, kana-extended, makasar, newa, yi, mayan-numerals, phoenician, takri, tifinagh, gothic, vai, ol-chiki, nushu, garay, chinese-simplified, tai-tham, adlam, ethiopic, cuneiform, sundanese, deseret, signwriting, cypriot, buginese, javanese, znamenny, cyrillic, soyombo, canadian-aboriginal, balinese, hebrew, old-persian, cherokee, mahajani, old-north-arabian, chinese-traditional, ottoman-siyaq-numbers, kannada, gurmukhi, greek-ext, syloti-nagri, chorasmian, pahawh-hmong, nabataean, masaram-gondi, hatran, buhid, meroitic-hieroglyphs, ogham, gujarati, music, latin, old-turkic, bengali, mro, sora-sompeng, inscriptional-pahlavi, todhri, elbasan, samaritan, wancho, chakma, bassa-vah, old-sogdian, sharada, kaithi, symbols, sunuwar, chinese-hongkong, tagalog, avestan, ugaritic, braille, lepcha, grantha, nag-mundari, new-tai-lue, oriya, osmanya, khitan-small-script, mandaic, coptic, nandinagari, pau-cin-hau, linear-b, zanabazar-square, lycian, marchen, vietnamese, nko, greek, kirat-rai, meroitic, runic, tai-viet, dogra, ahom, cham, gunjala-gondi, osage, old-italic, egyptian-hieroglyphs, batak, manichaean, saurashtra, syriac, cypro-minoan, japanese, hanifi-rohingya, georgian, inscriptional-parthian, palmyrene, yezidi, dives-akuru, lao, vithkuqi, phags-pa, modi, khojki, sogdian, arabic, bhaiksuki, math, psalter-pahlavi, duployan, telugu, hanunoo, ol-onal, thai, siddham, devanagari, meroitic-cursive, tirhuta, sinhala, indic-siyaq-numbers, miao, old-hungarian, tulu-tigalari, warang-citi, kawi, caucasian-albanian, kayah-li, mongolian, medefaidrin, tamil, tangsa, elymaic, gurung-khema, armenian, kharoshthi, mende-kikakui, shavian, thaana, limbu, bamum, nyiakeng-puachue-hmong, latin-ext, old-south-arabian, old-permic, multani, tamil-supplement, tangut, linear-a, carian, rejang, tagbanwa, cyrillic-ext, tai-le, toto, korean, anatolian-hieroglyphs, malayalam, imperial-aramaic</li>
-<li>U+0026 AMPERSAND: try adding one of: latin, math, adlam</li>
-<li>U+002A ASTERISK: try adding one of: math, adlam, gunjala-gondi, latin, symbols, syriac, masaram-gondi</li>
-<li>U+002C COMMA: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, coptic, masaram-gondi, nushu</li>
-<li>U+002D HYPHEN-MINUS: try adding one of: lisu, masaram-gondi, cham, gunjala-gondi, kayah-li, mongolian, latin, syriac, armenian, sora-sompeng, kharoshthi, nushu, wancho, adlam, sundanese, kaithi, hebrew, math, coptic</li>
-<li>U+002E FULL STOP: try adding one of: thaana, wancho, math, adlam, cham, gunjala-gondi, latin, syriac, avestan, coptic, masaram-gondi, nushu</li>
-<li>U+003A COLON: try adding one of: thaana, math, adlam, cham, gunjala-gondi, latin, syriac, meroitic, coptic, masaram-gondi</li>
-<li>U+003B SEMICOLON: try adding one of: thaana, math, adlam, cham, latin, coptic, masaram-gondi</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0050 LATIN CAPITAL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0051 LATIN CAPITAL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0052 LATIN CAPITAL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0053 LATIN CAPITAL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0054 LATIN CAPITAL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0055 LATIN CAPITAL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0056 LATIN CAPITAL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0057 LATIN CAPITAL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0058 LATIN CAPITAL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0059 LATIN CAPITAL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+005A LATIN CAPITAL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, symbols, math, nushu</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0070 LATIN SMALL LETTER P: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0071 LATIN SMALL LETTER Q: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0072 LATIN SMALL LETTER R: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0073 LATIN SMALL LETTER S: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0074 LATIN SMALL LETTER T: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0075 LATIN SMALL LETTER U: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0076 LATIN SMALL LETTER V: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0077 LATIN SMALL LETTER W: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0078 LATIN SMALL LETTER X: try adding one of: latin, symbols, math, nushu</li>
-<li>U+0079 LATIN SMALL LETTER Y: try adding one of: latin, symbols, math, nushu</li>
-<li>U+007A LATIN SMALL LETTER Z: try adding one of: latin, symbols, math, nushu</li>
-<li>U+00C6 LATIN CAPITAL LETTER AE: try adding latin</li>
-<li>U+0152 LATIN CAPITAL LIGATURE OE: try adding latin</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
- [code: unreachable-subsetting]
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ï</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Dii (Latn, 71,000 speakers), Dan (Latn, 1,099,244 speakers), Fur (Latn, 1,230,163 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ekpeye (Latn, 226,000 speakers), Dutch (Latn, 31,709,104 speakers), Avokaya (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Nateni (Latn, 100,000 speakers), Mfumte (Latn, 79,000 speakers), Zapotec (Latn, 490,000 speakers), Ma’di (Latn, 584,000 speakers), Yala (Latn, 200,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Han (Latn, 6 speakers), Ebira (Latn, 2,200,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Lithuanian (Latn, 2,357,094 speakers), South Central Banda (Latn, 244,000 speakers), Southern Kisi (Latn, 360,000 speakers), Gulay (Latn, 250,478 speakers), Cicipu (Latn, 44,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Lugbara (Latn, 2,200,000 speakers), Makaa (Latn, 221,000 speakers), Mango (Latn, 77,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Heiltsuk (Latn, 300 speakers), Kom (Latn, 360,685 speakers), Mundani (Latn, 34,000 speakers), Kaska (Latn, 125 speakers), Nzakara (Latn, 50,000 speakers), Igbo (Latn, 27,823,640 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Vute (Latn, 21,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Ejagham (Latn, 120,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers).</p>
+ [code: soft-dotted]
 
 
 
@@ -5399,7 +5145,11 @@ definitions.</p>
 
 * AE (U+00C6): L&lt;&lt;553.0,672.0&gt;--&lt;548.0,672.0&gt;&gt; -&gt; L&lt;&lt;548.0,672.0&gt;--&lt;418.0,672.0&gt;&gt;
 
+* Adieresis (U+00C4): L&lt;&lt;498.0,719.0&gt;--&lt;498.0,679.0&gt;&gt; -&gt; L&lt;&lt;498.0,679.0&gt;--&lt;537.0,134.0&gt;&gt;
+
 * a (U+0061): L&lt;&lt;244.0,135.0&gt;--&lt;244.0,135.0&gt;&gt; -&gt; L&lt;&lt;244.0,135.0&gt;--&lt;244.0,135.0&gt;&gt;
+
+* adieresis (U+00E4): L&lt;&lt;244.0,135.0&gt;--&lt;244.0,135.0&gt;&gt; -&gt; L&lt;&lt;244.0,135.0&gt;--&lt;244.0,135.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -5432,6 +5182,10 @@ definitions.</p>
 * u (U+0075): B&lt;&lt;300.0,120.0&gt;-&lt;294.0,106.0&gt;-&lt;305.0,135.0&gt;&gt;/B&lt;&lt;305.0,135.0&gt;-&lt;302.0,127.0&gt;-&lt;300.0,120.0&gt;&gt; = 0.2162094624615044
 
 * u (U+0075): B&lt;&lt;300.0,120.0&gt;-&lt;302.0,126.0&gt;-&lt;308.0,141.0&gt;&gt;/B&lt;&lt;308.0,141.0&gt;-&lt;259.0,73.0&gt;-&lt;209.5,32.5&gt;&gt; = 13.974668231542802
+
+* udieresis (U+00FC): B&lt;&lt;300.0,120.0&gt;-&lt;294.0,106.0&gt;-&lt;305.0,135.0&gt;&gt;/B&lt;&lt;305.0,135.0&gt;-&lt;302.0,127.0&gt;-&lt;300.0,120.0&gt;&gt; = 0.2162094624615044
+
+* udieresis (U+00FC): B&lt;&lt;300.0,120.0&gt;-&lt;302.0,126.0&gt;-&lt;308.0,141.0&gt;&gt;/B&lt;&lt;308.0,141.0&gt;-&lt;259.0,73.0&gt;-&lt;209.5,32.5&gt;&gt; = 13.974668231542802
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -5485,8 +5239,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 55 | 34 | 508 | 25 | 328 | 0 | 
-| 0% | 0% | 6% | 4% | 53% | 3% | 35% | 0% | 
+| 0 | 0 | 55 | 38 | 488 | 25 | 344 | 0 | 
+| 0% | 0% | 6% | 4% | 51% | 3% | 36% | 0% | 
 
 
 
