@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.alt" format="2">
+  <advance width="795"/>
+  <outline>
+    <contour>
+      <point x="299" y="609" type="curve" smooth="yes"/>
+      <point x="551" y="-1" type="line"/>
+      <point x="618" y="-1" type="line"/>
+      <point x="760" y="614" type="line" smooth="yes"/>
+      <point x="773" y="672"/>
+      <point x="828" y="672"/>
+      <point x="849" y="672" type="curve" smooth="yes"/>
+      <point x="870" y="672"/>
+      <point x="894" y="672"/>
+      <point x="917" y="672" type="curve"/>
+      <point x="924" y="700" type="line"/>
+      <point x="562" y="700" type="line"/>
+      <point x="555" y="672" type="line"/>
+      <point x="653" y="672" type="line" smooth="yes"/>
+      <point x="671" y="672"/>
+      <point x="707" y="647"/>
+      <point x="700" y="616" type="curve" smooth="yes"/>
+      <point x="693" y="585"/>
+      <point x="625" y="289"/>
+      <point x="586" y="119" type="curve"/>
+      <point x="605" y="101" type="line"/>
+      <point x="348" y="702" type="line"/>
+      <point x="143" y="702" type="line"/>
+      <point x="137" y="674" type="line"/>
+      <point x="241" y="674" type="line" smooth="yes"/>
+      <point x="268" y="674"/>
+      <point x="289" y="632"/>
+    </contour>
+    <contour>
+      <point x="-49" y="4" type="line"/>
+      <point x="353" y="4" type="line"/>
+      <point x="359" y="28" type="line"/>
+      <point x="322" y="28"/>
+      <point x="280" y="28"/>
+      <point x="247" y="28" type="curve" smooth="yes"/>
+      <point x="214" y="28"/>
+      <point x="203" y="66"/>
+      <point x="213" y="108" type="curve" smooth="yes"/>
+      <point x="333" y="627" type="line"/>
+      <point x="295" y="702" type="line"/>
+      <point x="290" y="702" type="line"/>
+      <point x="276" y="640"/>
+      <point x="152" y="105"/>
+      <point x="150" y="94" type="curve" smooth="yes"/>
+      <point x="146" y="77"/>
+      <point x="123" y="32"/>
+      <point x="94" y="32" type="curve" smooth="yes"/>
+      <point x="-43" y="32" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-11 18:59:14 +0000</string>
+    </dict>
+  </lib>
+</glyph>

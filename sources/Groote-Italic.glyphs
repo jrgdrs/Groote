@@ -32392,6 +32392,7 @@ name = Canon;
 axesValues = (
 22
 );
+exports = 0;
 instanceInterpolations = {
 "F2DFA844-ADB6-4558-8504-1E1502925A9B" = 0.5;
 m003 = 0.5;
@@ -32411,6 +32412,7 @@ name = Paragon;
 axesValues = (
 13
 );
+exports = 0;
 instanceInterpolations = {
 m002 = 0.625;
 m003 = 0.375;
@@ -32430,6 +32432,7 @@ name = Garmont;
 axesValues = (
 7
 );
+exports = 0;
 instanceInterpolations = {
 m002 = 0.5;
 m01 = 0.5;

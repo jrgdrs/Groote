@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>700</integer>
+    <key>capHeight</key>
+    <integer>700</integer>
+    <key>descender</key>
+    <integer>-150</integer>
+    <key>familyName</key>
+    <string>Groote-Italic</string>
+    <key>italicAngle</key>
+    <integer>-17</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2024/11/05 22:07:05</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Paragon</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-8</integer>
+      <integer>0</integer>
+      <integer>435</integer>
+      <integer>443</integer>
+      <integer>700</integer>
+      <integer>708</integer>
+    </array>
+    <key>postscriptFontName</key>
+    <string>Groote-Italic-Paragon</string>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-158</integer>
+      <integer>-150</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array>
+      <integer>28</integer>
+    </array>
+    <key>postscriptStemSnapV</key>
+    <array>
+      <integer>81</integer>
+    </array>
+    <key>styleMapFamilyName</key>
+    <string>Groote-Italic Paragon</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Paragon</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>435</integer>
+  </dict>
+</plist>

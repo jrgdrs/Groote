@@ -1,0 +1,88 @@
+	markClass [uni0308] <anchor 210 435> @mark_top;
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+languagesystem DFLT dflt;
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+feature hist;
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:hist ###
+feature hist {
+### open feature 'hist' ###
+sub s by s.hist;
+### close feature 'hist' ###
+} hist;
+
+### feature:2:dlig ###
+feature dlig {
+### open feature 'dlig' ###
+lookupflag IgnoreMarks;
+sub c t by c_t;
+sub s t by s_t;
+### close feature 'dlig' ###
+} dlig;
+
+### feature:3:liga ###
+feature liga {
+### open feature 'liga' ###
+lookupflag IgnoreMarks;
+sub f f by f_f;
+sub f i by f_i;
+### close feature 'liga' ###
+} liga;
+
+### feature:-1:kern ###
+feature kern {
+### open feature 'kern' ###
+	lookup kern_latn {
+		lookupflag IgnoreMarks;
+		pos o s -20;
+		pos s n 10;
+	} kern_latn;
+	lookupflag 0;
+### close feature 'kern' ###
+} kern;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_latn {
+		lookupflag 0;
+		pos base A <anchor 417 635> mark @mark_top;
+		pos base O <anchor 479 635> mark @mark_top;
+		pos base U <anchor 442 635> mark @mark_top;
+		pos base a <anchor 288 435> mark @mark_top;
+		pos base o <anchor 278 435> mark @mark_top;
+		pos base u <anchor 325 435> mark @mark_top;
+	} mark_latn;
+	lookup mark_latnmark2Liga {
+		lookupflag 0;
+		pos ligature c_t
+			<anchor 230 435> mark @mark_top
+			ligComponent
+			<anchor 557 435> mark @mark_top
+			;
+	} mark_latnmark2Liga;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+### feature:-1:mkmk ###
+feature mkmk {
+### open feature 'mkmk' ###
+	lookup mkmk_DFLT_top {
+		lookupflag UseMarkFilteringSet @mark_top;
+		pos mark uni0308 <anchor 287 703> mark @mark_top;
+	} mkmk_DFLT_top;
+### close feature 'mkmk' ###
+} mkmk;
+
+table GDEF {
+	LigatureCaretByPos c_t 328;
+;
+} GDEF;

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="258"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="-77" y="-209" type="curve" smooth="yes"/>
+      <point x="-8" y="-209"/>
+      <point x="83" y="-83"/>
+      <point x="144" y="96" type="curve" smooth="yes"/>
+      <point x="255" y="426" type="line" smooth="yes"/>
+      <point x="271" y="474"/>
+      <point x="258" y="508"/>
+      <point x="223" y="508" type="curve" smooth="yes"/>
+      <point x="150" y="508"/>
+      <point x="69" y="418"/>
+      <point x="27" y="290" type="curve"/>
+      <point x="57" y="290" type="line"/>
+      <point x="87" y="381"/>
+      <point x="131" y="446"/>
+      <point x="163" y="446" type="curve" smooth="yes"/>
+      <point x="174" y="446"/>
+      <point x="165" y="395"/>
+      <point x="142" y="323" type="curve" smooth="yes"/>
+      <point x="62" y="82" type="line" smooth="yes"/>
+      <point x="10" y="-74"/>
+      <point x="-42" y="-185"/>
+      <point x="-64" y="-185" type="curve" smooth="yes"/>
+      <point x="-95" y="-185"/>
+      <point x="-105" y="-144"/>
+      <point x="-88" y="-86" type="curve" smooth="yes"/>
+      <point x="-84" y="-73"/>
+      <point x="-88" y="-63"/>
+      <point x="-97" y="-63" type="curve" smooth="yes"/>
+      <point x="-132" y="-63"/>
+      <point x="-162" y="-84"/>
+      <point x="-169" y="-114" type="curve" smooth="yes"/>
+      <point x="-186" y="-170"/>
+      <point x="-148" y="-209"/>
+    </contour>
+    <contour>
+      <point x="224" y="612" type="curve" smooth="yes"/>
+      <point x="257" y="612"/>
+      <point x="284" y="631"/>
+      <point x="290" y="659" type="curve" smooth="yes"/>
+      <point x="298" y="687"/>
+      <point x="280" y="706"/>
+      <point x="248" y="706" type="curve" smooth="yes"/>
+      <point x="216" y="706"/>
+      <point x="188" y="687"/>
+      <point x="180" y="659" type="curve" smooth="yes"/>
+      <point x="174" y="631"/>
+      <point x="192" y="612"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-11 18:59:14 +0000</string>
+    </dict>
+  </lib>
+</glyph>

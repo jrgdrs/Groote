@@ -29,7 +29,18 @@ This is a mediaeval serif font based on the prototype of the type specimen of th
 ![Sample Image](documentation/image-Groote-Italic-Mignon.png)
 
 
-Find specimen and book samples as pdf file in subfolder custom/specimen/*.pdf.
+## Work in Progress
+
+Next steps
+
+- Figures and other glyphs 
+- Kerning 
+- Diacritics
+
+Find the specimen and some book samples as pdf file in subfolder custom/specimen/*.pdf. Missing glyphs are substituted by Times.
+
+Find current fontbakery technical test report here https://jrgdrs.github.io/Groote//fontbakery/fontbakery-report.html
+
 
 ## License
 

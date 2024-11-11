@@ -4,3 +4,6 @@ node_modules
 out
 venv
 venv-test
+custom/images
+custom/qa
+custom/specimen/*.html
