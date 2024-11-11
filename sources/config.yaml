@@ -1,2 +1,5 @@
 sources:
   - Groote.glyphs
+  - Groote-Italic.glyphs
+familyName: Groote
+buildVariable: true

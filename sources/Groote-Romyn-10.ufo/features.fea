@@ -1,0 +1,152 @@
+	markClass [uni0308] <anchor 150 435> @mark_top;
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+languagesystem DFLT dflt;
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+feature hist;
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:hist ###
+feature hist {
+### open feature 'hist' ###
+sub s by s.hist;
+sub s_t by s_t.hist;
+### close feature 'hist' ###
+} hist;
+
+### feature:2:dlig ###
+feature dlig {
+### open feature 'dlig' ###
+lookupflag IgnoreMarks;
+sub c t by c_t;
+sub s t by s_t;
+### close feature 'dlig' ###
+} dlig;
+
+### feature:3:liga ###
+feature liga {
+### open feature 'liga' ###
+lookupflag IgnoreMarks;
+sub f f by f_f;
+sub f i by f_i;
+### close feature 'liga' ###
+} liga;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_latn {
+		lookupflag 0;
+		pos base A <anchor 397 700> mark @mark_top;
+		pos base AE <anchor 497 700> mark @mark_top;
+		pos base B <anchor 341 700> mark @mark_top;
+		pos base C <anchor 411 700> mark @mark_top;
+		pos base D <anchor 412 700> mark @mark_top;
+		pos base E <anchor 349 700> mark @mark_top;
+		pos base F <anchor 296 700> mark @mark_top;
+		pos base G <anchor 433 700> mark @mark_top;
+		pos base H <anchor 434 700> mark @mark_top;
+		pos base I <anchor 180 700> mark @mark_top;
+		pos base J <anchor 171 700> mark @mark_top;
+		pos base K <anchor 377 700> mark @mark_top;
+		pos base L <anchor 358 700> mark @mark_top;
+		pos base M <anchor 473 700> mark @mark_top;
+		pos base N <anchor 423 700> mark @mark_top;
+		pos base O <anchor 454 700> mark @mark_top;
+		pos base OE <anchor 604 700> mark @mark_top;
+		pos base P <anchor 305 700> mark @mark_top;
+		pos base Q <anchor 454 700> mark @mark_top;
+		pos base R <anchor 384 700> mark @mark_top;
+		pos base S <anchor 292 700> mark @mark_top;
+		pos base T <anchor 352 700> mark @mark_top;
+		pos base U <anchor 416 700> mark @mark_top;
+		pos base V <anchor 365 700> mark @mark_top;
+		pos base W <anchor 520 700> mark @mark_top;
+		pos base X <anchor 375 700> mark @mark_top;
+		pos base Y <anchor 326 700> mark @mark_top;
+		pos base Z <anchor 350 700> mark @mark_top;
+		pos base a <anchor 228 445> mark @mark_top;
+		pos base ae <anchor 342 445> mark @mark_top;
+		pos base b <anchor 277 445> mark @mark_top;
+		pos base c <anchor 217 445> mark @mark_top;
+		pos base d <anchor 279 445> mark @mark_top;
+		pos base e <anchor 229 445> mark @mark_top;
+		pos base f <anchor 158 700> mark @mark_top;
+		pos base g <anchor 257 445> mark @mark_top;
+		pos base h <anchor 282 700> mark @mark_top;
+		pos base k <anchor 264 700> mark @mark_top;
+		pos base l <anchor 136 700> mark @mark_top;
+		pos base m <anchor 432 445> mark @mark_top;
+		pos base n <anchor 285 445> mark @mark_top;
+		pos base o <anchor 275 445> mark @mark_top;
+		pos base p <anchor 271 445> mark @mark_top;
+		pos base q <anchor 275 445> mark @mark_top;
+		pos base r <anchor 198 445> mark @mark_top;
+		pos base s <anchor 181 445> mark @mark_top;
+		pos base germandbls <anchor 296 700> mark @mark_top;
+		pos base t <anchor 183 524> mark @mark_top;
+		pos base u <anchor 280 445> mark @mark_top;
+		pos base v <anchor 255 445> mark @mark_top;
+		pos base w <anchor 383 445> mark @mark_top;
+		pos base x <anchor 255 445> mark @mark_top;
+		pos base y <anchor 251 445> mark @mark_top;
+		pos base z <anchor 232 445> mark @mark_top;
+		pos base s.hist <anchor 158 445> mark @mark_top;
+	} mark_latn;
+	lookup mark_latnmark2Liga {
+		lookupflag 0;
+		pos ligature c_t
+			<anchor 197 445> mark @mark_top
+			ligComponent
+			<anchor 591 445> mark @mark_top
+			;
+		pos ligature f_i
+			<anchor 145 700> mark @mark_top
+			ligComponent
+			<anchor 434 700> mark @mark_top
+			;
+		pos ligature s_i.hist
+			<anchor 142 445> mark @mark_top
+			ligComponent
+			<anchor 425 445> mark @mark_top
+			;
+		pos ligature s_s.hist
+			<anchor 151 445> mark @mark_top
+			ligComponent
+			<anchor 452 445> mark @mark_top
+			;
+		pos ligature s_t.hist
+			<anchor 165 445> mark @mark_top
+			ligComponent
+			<anchor 494 445> mark @mark_top
+			;
+	} mark_latnmark2Liga;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+### feature:-1:mkmk ###
+feature mkmk {
+### open feature 'mkmk' ###
+	lookup mkmk_DFLT_top {
+		lookupflag UseMarkFilteringSet @mark_top;
+		pos mark uni0308 <anchor 150 626> mark @mark_top;
+	} mkmk_DFLT_top;
+### close feature 'mkmk' ###
+} mkmk;
+
+table GDEF {
+	LigatureCaretByPos c_t 394;
+	LigatureCaretByPos f_f 306;
+	LigatureCaretByPos f_i 289;
+	LigatureCaretByPos s_t 351;
+	LigatureCaretByPos s_i.hist 284;
+	LigatureCaretByPos s_s.hist 301;
+	LigatureCaretByPos s_t.hist 330;
+;
+} GDEF;

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odieresis" format="2">
+  <advance width="896"/>
+  <unicode hex="00D6"/>
+  <outline>
+    <component base="O"/>
+    <component base="uni0308" xOffset="298" yOffset="265"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2024-11-11 17:30:14 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -12,14 +12,24 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjrgdrs%2FEttorre%2Fgh-pages%2Fbadges%2FUniversal.json
 
-This is a mediaeval serif font based on the prototype of the type specimen of the Antwerp punchcutter Joannes Baptist van Wolsschaten in 1752 with a regular (Romeyn) and italic (Corsyf) cut in optical sizes for display (labeled as Paragon) and text(called Garmont).
-    
-![Sample Image](documentation/image-Groote-Garmont.png)
-![Sample Image](documentation/image-Groote-Paragon.png)
-![Sample Image](documentation/image-Groote-Italic-Garmont.png)
-![Sample Image](documentation/image-Groote-Italic-Paragon.png)
+This is a mediaeval serif font based on the prototype of the type specimen of the Antwerp punchcutter Joannes Baptist van Wolsschaten in 1752 with a regular (Romeyn) and italic (Corsyf) cut in 4 optical sizes for display (labeled as Canon), headline (Paragon), text (Garmont) and caption (called Mignon).
 
-Find specimen and language samples as pdf file in subfolder documentation.
+### Romeyn
+
+![Sample Image](documentation/image-Groote-Canon.png)
+![Sample Image](documentation/image-Groote-Paragon.png)
+![Sample Image](documentation/image-Groote-Garmont.png)
+![Sample Image](documentation/image-Groote-Mignon.png)
+
+### Corsyf
+
+![Sample Image](documentation/image-Groote-Italic-Canon.png)
+![Sample Image](documentation/image-Groote-Italic-Paragon.png)
+![Sample Image](documentation/image-Groote-Italic-Garmont.png)
+![Sample Image](documentation/image-Groote-Italic-Mignon.png)
+
+
+Find specimen and book samples as pdf file in subfolder custom/specimen/*.pdf.
 
 ## License
 
